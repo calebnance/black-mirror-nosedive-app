@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Caleb Nance">
+      <title>NoseDive - Black Mirror App</title>
+      <link href="styles/font-awesome.min.css" rel="stylesheet">
+      <link href="styles/app.css" rel="stylesheet">
+    </head>
+    <body ng-app="nosedive" class="nosedive female">
+
+      <div class="c-area">
+        <div class="c-question">
+          <div class="cq-user">{Username}</div>
+          would you like to
+        </div><!-- /.c-question -->
+        <div class="c-rate-user-img">
+          <img class="user-img" src="/img/profiles/calebnance.jpg" />
+        </div><!-- /.c-rate-user-img -->
+        <div class="c-rate">
+          Rate <span class="c-rating-user">{username}</span>
+        </div><!-- /.c-rate -->
+      </div><!-- /.c-area -->
+
+      <div class="rating-area">
+        <div class="stars" data-rated="0">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </div><!-- /.stars -->
+      </div><!-- /.rating-area -->
+
+      <script src="scripts/angular.min.js"></script>
+      <script src="scripts/jquery-1.11.3.min.js"></script>
+      <script src="scripts/jquery.touchSwipe.min.js"></script>
+      <script src="scripts/app.js"></script>
+    </body>
+</html>

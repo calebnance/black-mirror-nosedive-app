@@ -1,0 +1,94 @@
+/* mobile first */
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  margin: 0;
+}
+
+.female {
+  background-color: #b68481;
+  /*background: rgba(182,132,129,1);
+  background: -moz-linear-gradient(top, rgba(182,132,129,1) 0%, rgba(255,181,171,1) 50%, rgba(182,132,129,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(182,132,129,1)), color-stop(50%, rgba(255,181,171,1)), color-stop(100%, rgba(182,132,129,1)));
+  background: -webkit-linear-gradient(top, rgba(182,132,129,1) 0%, rgba(255,181,171,1) 50%, rgba(182,132,129,1) 100%);
+  background: -o-linear-gradient(top, rgba(182,132,129,1) 0%, rgba(255,181,171,1) 50%, rgba(182,132,129,1) 100%);
+  background: -ms-linear-gradient(top, rgba(182,132,129,1) 0%, rgba(255,181,171,1) 50%, rgba(182,132,129,1) 100%);
+  background: linear-gradient(to bottom, rgba(182,132,129,1) 0%, rgba(255,181,171,1) 50%, rgba(182,132,129,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b68481', endColorstr='#b68481', GradientType=0 );*/
+  color: #623231;
+}
+
+.female .star-rated {
+  color: #a173be;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #623231;
+}
+
+.male {
+  /*background-color: #8381b6;*/
+  background-color: #818cb6;
+  color: #313662;
+}
+
+.male .star-rated {
+  color: #7289bd;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #313662;
+}
+
+/* content area */
+.c-area {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 300;
+  padding-top: 20%;
+  text-align: center;
+}
+
+.c-area .c-question {
+  padding-bottom: 30px;
+}
+
+.c-area .c-rate-user-img {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.c-area .c-question .cq-user,
+.c-area .c-rate .c-rating-user {
+  font-weight: 600;
+}
+
+img.user-img {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 145px;
+}
+
+.female img.user-img {
+  border-color: #623231;
+}
+
+.male img.user-img {
+  border-color: #313662;
+}
+
+/* rating system */
+.rating-area {
+  bottom: 60px;
+  left: 0;
+  position: absolute;
+}
+
+.rating-area .stars {
+  display: block;
+  text-align: center;
+}
+
+.rating-area .stars .fa-star {
+  font-size: 50px;
+  text-align: center;
+  width: 15%;
+}
