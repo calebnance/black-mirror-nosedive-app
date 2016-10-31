@@ -1,7 +1,6 @@
 /* mobile first */
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  margin: 0;
 }
 
 .female {
@@ -80,6 +79,7 @@ img.user-img {
   bottom: 60px;
   left: 0;
   position: absolute;
+  width: 100%;
 }
 
 .rating-area .stars {
@@ -91,4 +91,21 @@ img.user-img {
   font-size: 50px;
   text-align: center;
   width: 15%;
+}
+
+/* tablets (sm) */
+@media (min-width: 768px) {
+
+}
+
+/* desktop (md) */
+@media (min-width: 992px) {
+  .c-area {
+    padding-top: 45px;
+  }
+}
+
+/* large devices (lg) */
+@media (min-width: 1200px) {
+
 }

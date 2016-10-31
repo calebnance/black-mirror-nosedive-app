@@ -7,35 +7,45 @@
       <meta name="author" content="Caleb Nance">
       <title>NoseDive - Black Mirror App</title>
       <link href="styles/font-awesome.min.css" rel="stylesheet">
+      <link href="styles/bootstrap.min.css" rel="stylesheet">
       <link href="styles/app.css" rel="stylesheet">
     </head>
     <body ng-app="nosedive" class="nosedive female">
 
-      <div class="c-area">
-        <div class="c-question">
-          <div class="cq-user">{Username}</div>
-          would you like to
-        </div><!-- /.c-question -->
-        <div class="c-rate-user-img">
-          <img class="user-img" src="/img/profiles/calebnance.jpg" />
-        </div><!-- /.c-rate-user-img -->
-        <div class="c-rate">
-          Rate <span class="c-rating-user">{username}</span>
-        </div><!-- /.c-rate -->
-      </div><!-- /.c-area -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+
+            <div class="c-area">
+              <div class="c-question">
+                <div class="cq-user">{Username}</div>
+                would you like to
+              </div><!-- /.c-question -->
+              <div class="c-rate-user-img">
+                <img class="user-img" src="/img/profiles/calebnance.jpg" />
+              </div><!-- /.c-rate-user-img -->
+              <div class="c-rate">
+                Rate <span class="c-rating-user">{username}</span>
+              </div><!-- /.c-rate -->
+            </div><!-- /.c-area -->
+
+          </div><!-- /.col-xs-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
 
       <div class="rating-area">
         <div class="stars" data-rated="0">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" data-rate="1" aria-hidden="true"></i>
+          <i class="fa fa-star" data-rate="2" aria-hidden="true"></i>
+          <i class="fa fa-star" data-rate="3" aria-hidden="true"></i>
+          <i class="fa fa-star" data-rate="4" aria-hidden="true"></i>
+          <i class="fa fa-star" data-rate="5" aria-hidden="true"></i>
         </div><!-- /.stars -->
       </div><!-- /.rating-area -->
 
       <script src="scripts/angular.min.js"></script>
       <script src="scripts/jquery-1.11.3.min.js"></script>
+      <script src="scripts/bootstrap.min.js"></script>
       <script src="scripts/jquery.touchSwipe.min.js"></script>
       <script src="scripts/app.js"></script>
     </body>
