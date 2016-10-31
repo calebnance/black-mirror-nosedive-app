@@ -1,6 +1,6 @@
 Black Mirror - NoseDive App
 =========
-nosedive.calebnance.com built with [Angular](https://angularjs.org)
+[nosedive.calebnance.com](nosedive.calebnance.com) built with [Angular](https://angularjs.org)
 
 Welcome to the prototype app inspired by the NoseDive episode of Black Mirror
 --------------------
