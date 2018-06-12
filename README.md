@@ -29,9 +29,11 @@ UI Screenshots
 </p>
 
 #### Add Profile Post
-<img src="screenshots/update-post-1.png?raw=true" width="224" />
-<img src="screenshots/update-post-2.png?raw=true" width="224" />
-<img src="screenshots/update-post-3.png?raw=true" width="224" />
+<p align="left">
+  <img src="screenshots/update-post-1.png?raw=true" width="224" />
+  <img src="screenshots/update-post-2.png?raw=true" width="224" />
+  <img src="screenshots/update-post-3.png?raw=true" width="224" />
+</p>
 
 #### View Profile
 <p align="center">
