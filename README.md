@@ -9,6 +9,9 @@ This is just a fun react web app, it's not affiliated with the Netflix show at a
 
 UI Screenshots
 --------------------
+<p align="center">
+  <img src="screenshots/profile-rated-1.png?raw=true" style="border: 1px solid #999;" width="350"/>
+</p>
 ![Profile Rated 1](screenshots/profile-rated-1.png?raw=true "Profile Rated 1")
 
 Suggest a change
