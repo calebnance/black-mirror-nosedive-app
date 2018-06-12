@@ -9,7 +9,7 @@ This is just a fun react web app, it's not affiliated with the Netflix show at a
 
 UI Screenshots
 --------------------
-![Profile Rated 1](screenshots/profile-rated-.png?raw=true "Profile Rated 1")
+![Profile Rated 1](screenshots/profile-rated-1.png?raw=true "Profile Rated 1")
 
 Suggest a change
 --------------------
