@@ -9,14 +9,19 @@ This is just a fun react web app, it's not affiliated with the Netflix show at a
 
 UI Screenshots
 --------------------
+
+#### Profile Rated Notification
 <p align="center">
-  <img src="screenshots/profile-rated-1.png?raw=true" style=" background-color: #fff; border: 1px solid #999; padding: 4px;" width="300"/>
-  <img src="screenshots/profile-rated-2.png?raw=true" style="border: 1px solid #999;" width="300"/>
-  <img src="screenshots/rate-1.png?raw=true" style="border: 1px solid #999;" width="300"/>
-  <img src="screenshots/rate-2.png?raw=true" style="border: 1px solid #999;" width="300"/>
-  <img src="screenshots/rate-3.png?raw=true" style="border: 1px solid #999;" width="300"/>
+  <img src="screenshots/profile-rated-1.png?raw=true" width="300" />
+  <img src="screenshots/profile-rated-2.png?raw=true" width="300" />
 </p>
-![Profile Rated 1](screenshots/profile-rated-1.png?raw=true "Profile Rated 1")
+
+#### Rating
+<p align="center">
+  <img src="screenshots/rate-1.png?raw=true" width="224" />
+  <img src="screenshots/rate-2.png?raw=true" width="224" />
+  <img src="screenshots/rate-3.png?raw=true" width="224" />
+</p>
 
 Suggest a change
 --------------------
