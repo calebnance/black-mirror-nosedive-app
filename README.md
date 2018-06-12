@@ -11,20 +11,20 @@ UI Screenshots
 --------------------
 
 #### Profile Rated Notification
-<p align="center">
+<p align="left">
   <img src="screenshots/profile-rated-1.png?raw=true" width="300" />
   <img src="screenshots/profile-rated-2.png?raw=true" width="300" />
 </p>
 
 #### Rating
-<p align="center">
+<p align="left">
   <img src="screenshots/rate-1.png?raw=true" width="224" />
   <img src="screenshots/rate-2.png?raw=true" width="224" />
   <img src="screenshots/rate-3.png?raw=true" width="224" />
 </p>
 
 #### Controls
-<p align="center">
+<p align="left">
   <img src="screenshots/ui-controls-1.png?raw=true" width="300" />
 </p>
 
@@ -36,7 +36,7 @@ UI Screenshots
 </p>
 
 #### View Profile
-<p align="center">
+<p align="left">
   <img src="screenshots/view-profile-1.png?raw=true" width="300" />
 </p>
 
