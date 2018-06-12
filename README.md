@@ -1,11 +1,15 @@
-Black Mirror (S3 E1) - NoseDive Web App
+Black Mirror (S3 E1) - NoseDive React Web App
 =========
-[nosedive.calebnance.com](http://nosedive.calebnance.com) built with [Angular](https://angularjs.org)
+[nosedive.calebnance.com](http://nosedive.calebnance.com) built with [React](https://reactjs.org)
 
 Welcome to the prototype app inspired by the NoseDive episode of Black Mirror Season 3 Episode 1
 --------------------
 
-This is just a fun app, it's not affiliated with the Netflix show at all. I loved the episode and thought it would be cool to prototype it out and see what happens.
+This is just a fun react web app, it's not affiliated with the Netflix show at all. I loved the episode and thought it would be cool to prototype it out and see what happens.
+
+UI Screenshots
+--------------------
+![Profile Rated 1](screenshots/profile-rated-.png?raw=true "Profile Rated 1")
 
 Suggest a change
 --------------------
